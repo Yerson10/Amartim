@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amart1m - Postres Artesanales</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fffaf6;
+      color: #333;
+    }
+    header {
+      background: #b56576;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    header img {
+      height: 60px;
+    }
+    nav {
+      background: #6d597a;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .hero {
+      background: url("portada.jpg") no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .catalogo {
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+    .producto {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .producto img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      background: #6d597a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    .boton-whatsapp {
+      display: inline-block;
+      background: #25D366;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Logo Amart1m">
+    <h1>Amart1m</h1>
+    <p>Postres artesanales hechos con amor</p>
+  </header>
+
+  <nav>
+    <a href="#catalogo">Catálogo</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section class="hero">
+    <p>Deliciosos postres a un clic 🍰</p>
+  </section>
+
+  <section id="catalogo" class="catalogo">
+    <div class="producto">
+      <img src="postre1.jpg" alt="Tiramisú">
+      <h3>Tiramisú</h3>
+      <p>$12.000</p>
+    </div>
+    <div class="producto">
+      <img src="postre2.jpg" alt="Cheesecake">
+      <h3>Cheesecake</h3>
+      <p>$10.000</p>
+    </div>
+    <div class="producto">
+      <img src="postre3.jpg" alt="Brownie">
+      <h3>Brownie</h3>
+      <p>$8.000</p>
+    </div>
+  </section>
+
+  <footer id="contacto">
+    <p>Síguenos en nuestras redes:</p>
+    <p>
+      <a href="https://wa.me/573001234567" class="boton-whatsapp">Pedir por WhatsApp</a>
+    </p>
+    <p>Instagram: @amart1m | Facebook: Amart1m | TikTok: @amart1m</p>
+    <p>&copy; 2025 Amart1m. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
